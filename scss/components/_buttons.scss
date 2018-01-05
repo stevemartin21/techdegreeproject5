@@ -1,0 +1,43 @@
+.btn--default.theme__colors{
+	@include button-style;
+	 background-color: #95DEE3;  /* Island Paradise Blue */
+	 @media (min-width: 786px){
+	 @include  button-responsive;
+	 }
+}
+.btn--success.theme__colors {
+
+	@include button-style;
+	 background-color: #88B04B;  /* Greenery */
+	  @media (min-width: 786px){
+	 @include  button-responsive;
+	 }
+
+     }
+.btn--error.theme__colors {
+
+	@include button-style;
+	 background-color: #DC4C46;  /* Grenadine Red */
+	  @media (min-width: 786px){
+	 @include  button-responsive;
+	 }
+      }
+.btn--warning.theme__colors {
+
+	@include button-style;
+	 background-color: #F2552C;  /* Flame */
+	  @media (min-width: 786px){
+	 @include  button-responsive;
+	 }
+      }
+.btn--info.theme__colors {
+
+	@include button-style;
+	 background-color: #B76BA3;  /* Bodacious*/
+	  @media (min-width: 786px){
+	 @include  button-responsive;
+	 }
+    }
+
+
+    

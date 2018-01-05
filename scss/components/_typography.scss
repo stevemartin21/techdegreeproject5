@@ -1,0 +1,46 @@
+
+*{
+	font-family: $font-stack-primary;
+
+}
+
+.link{
+	
+	color: #98DDDE; 
+	font-weight:bold;
+	margin:0 auto;
+}
+
+.headline--secondary{
+	color:lightgray;
+	font-size: .75em;
+	padding:0px 0px;
+
+}
+.headline--primary{
+	
+	font-size: 1.5em;
+	margin-right:10px;
+	color:#98DDDE;
+	font-weight: bold;
+}
+
+.blockquote{
+	
+	font-size: 1em;
+	font-style: italic;
+	border-left: solid 4px #98DDDE;
+	margin-left:20px;
+	padding-left:20px;
+	margin-bottom:20px;
+	@media (min-width: 758px){
+	font-size:1.5em;
+
+	}
+	
+}
+
+.container{
+	width:80%;
+	margin:0 auto;
+}

@@ -1,0 +1,17 @@
+.form__label--hidden{
+	display:none;
+}
+.form__input{
+	text-align: left;
+	padding:20px;
+	border:none;
+	border-bottom: teal 4px solid;
+	width:90%;
+	@media (min-width: 768px){
+	margin-left:40px;
+	margin-right:40px;}
+}
+
+.form{
+	margin: 0px 20px;
+}

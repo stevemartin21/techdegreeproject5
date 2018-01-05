@@ -1,0 +1,31 @@
+.img--avatar{
+    @extend %image;
+	 display: block;
+    width: 60%;
+     @media (min-width: 786px){
+    width: 50%;
+    }
+}
+.img--logo{
+	margin: 0px auto;
+    @extend %image;
+    width: 70%;
+   
+    @media (min-width: 786px){
+    width: 80%;
+    }
+
+}
+.img--frame{
+
+	display: block;
+    @extend %image;
+    width: 100%;
+    padding:10px;
+    border: solid teal 1px;
+    @media (min-width: 768px){
+    width:90%;
+    }
+}
+
+

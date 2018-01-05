@@ -1,0 +1,39 @@
+
+
+a{
+	text-decoration:none;
+	color:black;
+	margin:0 auto;
+}
+
+.active{
+
+	background-color:#98DDDE;
+	border-radius:5px;
+}
+
+
+.nav{
+	flex-direction: column;
+
+}
+.nav__item{
+	@extend %navitems;
+	padding: 10px 80px;
+	@media (min-width: 786px){
+	display: inline-flex;
+	margin-left:.1em;
+	margin-right: 1em;
+	padding: 10px 10px;
+	}
+}
+
+.active a{
+	color:white;
+}
+
+nav{
+ 	margin-top: 0;
+ 	align-self: center;	
+ 		}
+ 		

@@ -1,0 +1,54 @@
+/* For mixins you need to do @include */
+/*This styles the main grid column for the mobile size of the web site */
+
+@mixin grid-column{
+	display: flex;
+	flex-direction: column;		
+}
+
+/*This styles the buttons for the mobile size of the web site */
+
+@mixin button-style{
+
+	margin: 15px 0px;
+	width:100%;
+	text-align:center;
+	padding:10px 0px;
+	color:white;
+	border:none;
+	border-radius: 5px;
+	 text-transform: uppercase;
+
+	
+}
+
+/*This styles the grid column themes for the mobile size of the web site */
+
+@mixin grid__column--theme{
+	
+	display:flex;
+   	flex-direction: column;
+	margin:5px 0;
+	width:100%;
+	text-align:left;
+	padding:10px 10px;
+	border:none;
+	border-radius: 5px;
+
+}
+
+
+/*   Media Query Buttons style */
+
+@mixin button-responsive {
+	margin-left:10px;
+	margin-right:10px;
+
+
+}
+
+@mixin grid__column-responsive{
+	width: calc((100% / 12)*5);
+	text-align: center;
+
+}
