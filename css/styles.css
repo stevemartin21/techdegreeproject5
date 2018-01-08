@@ -1,5 +1,12 @@
 /* Font Types*/
+/* Colors */
+/*Media Breakpoint */
+/*Size */
+/* Font Weight */
 /* For mixins you need to do @include */
+/* Media Query Mixin */
+/*  BEM Element Selector */
+/*BEM Modifier Selector */
 /*This styles the main grid column for the mobile size of the web site */
 /*This styles the buttons for the mobile size of the web site */
 /*This styles the grid column themes for the mobile size of the web site */
@@ -18,7 +25,7 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  font-family: 'Lato', sans-serif; }
+  font-family: "Lato", sans-serif; }
 
 ul {
   margin: 20px auto; }
@@ -33,7 +40,7 @@ p {
 
 .grid__row {
   margin: 0px auto; }
-  @media (min-width: 786px) {
+  @media (min-width: 769px) {
     .grid__row {
       width: 100%;
       display: flex;
@@ -43,7 +50,7 @@ p {
   display: flex;
   flex-direction: column;
   align-self: center; }
-  @media (min-width: 786px) {
+  @media (min-width: 769px) {
     .grid__col--2 {
       margin-right: auto;
       margin-left: 40px; } }
@@ -52,7 +59,7 @@ p {
   display: flex;
   flex-direction: column;
   margin: 20px auto; }
-  @media (min-width: 786px) {
+  @media (min-width: 769px) {
     .grid__col--3 {
       margin-right: auto;
       margin-left: 40px; } }
@@ -60,7 +67,7 @@ p {
 .grid__col--9 {
   display: flex;
   flex-direction: column; }
-  @media (min-width: 786px) {
+  @media (min-width: 769px) {
     .grid__col--9 {
       flex-direction: row;
       margin-right: 80px; } }
@@ -68,7 +75,7 @@ p {
 .grid__col--12 {
   display: flex;
   flex-direction: column; }
-  @media (min-width: 786px) {
+  @media (min-width: 769px) {
     .grid__col--12 {
       flex-direction: row;
       justify-content: center;
@@ -77,14 +84,14 @@ p {
 .grid__col--8 {
   display: flex;
   flex-direction: column; }
-  @media (min-width: 786px) {
+  @media (min-width: 769px) {
     .grid__col--8 {
       flex: 2; } }
 
 .grid__col--4 {
   display: flex;
   flex-direction: column; }
-  @media (min-width: 786px) {
+  @media (min-width: 769px) {
     .grid__col--4 {
       flex: 1;
       margin-left: 20px; } }
@@ -95,7 +102,7 @@ p {
   padding: 10px 0px;
   border-radius: 5px;
   margin: 5px 0px; }
-  @media (min-width: 786px) {
+  @media (min-width: 769px) {
     .grid__col--6 {
       flex: 1; } }
 
@@ -105,7 +112,7 @@ p {
   padding: 10px 0px;
   border-radius: 5px;
   margin: 5px 0px; }
-  @media (min-width: 786px) {
+  @media (min-width: 769px) {
     .grid__col--10 {
       flex: 1; } }
 
@@ -115,7 +122,7 @@ p {
   padding: 10px 0px;
   border-radius: 5px;
   margin: 5px 0px; }
-  @media (min-width: 786px) {
+  @media (min-width: 769px) {
     .grid__col--11 {
       flex: 1; } }
 
@@ -125,7 +132,7 @@ p {
   padding: 10px 0px;
   border-radius: 5px;
   margin: 5px 0px; }
-  @media (min-width: 786px) {
+  @media (min-width: 769px) {
     .grid__col--6 {
       flex: 1; } }
 
@@ -139,7 +146,7 @@ p {
   border: none;
   border-radius: 5px;
   background-color: #009B77; }
-  @media (min-width: 786px) {
+  @media (min-width: 769px) {
     .grid__col--12.theme__colors {
       width: calc((100% / 12)*12);
       text-align: center; } }
@@ -147,7 +154,7 @@ p {
 .grid__col--6.theme__colors {
   @minclude grid__column--theme;
   background-color: #4C6A92; }
-  @media (min-width: 786px) {
+  @media (min-width: 769px) {
     .grid__col--6.theme__colors {
       width: calc((100% / 12)*6);
       text-align: center;
@@ -164,7 +171,7 @@ p {
   border-radius: 5px;
   background-color: #98DDDE;
   /* LImpet Shell*/ }
-  @media (min-width: 786px) {
+  @media (min-width: 769px) {
     .grid__col--4.theme__colors {
       width: calc((100% / 12)*4);
       text-align: center;
@@ -181,7 +188,7 @@ p {
   border-radius: 5px;
   background-color: #9896A4;
   /* Lilac Gray */ }
-  @media (min-width: 786px) {
+  @media (min-width: 769px) {
     .grid__col--3.theme__colors {
       width: calc((100% / 12)*3);
       text-align: center;
@@ -198,7 +205,7 @@ p {
   border-radius: 5px;
   background-color: #92B558;
   /* Greenery */ }
-  @media (min-width: 786px) {
+  @media (min-width: 769px) {
     .grid__col--5.theme__colors {
       width: calc((100% / 12)*5);
       text-align: center; } }
@@ -213,7 +220,7 @@ p {
   border: none;
   border-radius: 5px;
   background-color: #DC4C46; }
-  @media (min-width: 786px) {
+  @media (min-width: 769px) {
     .grid__col--7.theme__colors {
       width: calc((100% / 12)*7);
       text-align: center;
@@ -229,14 +236,14 @@ p {
   border: none;
   border-radius: 5px;
   background-color: #B93A32; }
-  @media (min-width: 786px) {
+  @media (min-width: 769px) {
     .grid__col--8.theme__colors {
       width: calc((100% / 12)*5);
       justify-content: space-between;
       margin-right: 10px;
       text-align: center; } }
 
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   .grid__col--7.theme__colors.centered {
     margin: 0px auto; } }
 
@@ -266,7 +273,7 @@ p {
   margin-left: 20px;
   padding-left: 20px;
   margin-bottom: 20px; }
-  @media (min-width: 758px) {
+  @media (min-width: 769px) {
     .blockquote {
       font-size: 1.5em; } }
 
@@ -288,7 +295,7 @@ a {
 
 .nav__item {
   padding: 10px 80px; }
-  @media (min-width: 786px) {
+  @media (min-width: 769px) {
     .nav__item {
       display: inline-flex;
       margin-left: .1em;
@@ -305,14 +312,14 @@ nav {
 .img--avatar {
   display: block;
   width: 60%; }
-  @media (min-width: 786px) {
+  @media (min-width: 769px) {
     .img--avatar {
       width: 50%; } }
 
 .img--logo {
   margin: 0px auto;
   width: 70%; }
-  @media (min-width: 786px) {
+  @media (min-width: 769px) {
     .img--logo {
       width: 80%; } }
 
@@ -321,7 +328,7 @@ nav {
   width: 100%;
   padding: 10px;
   border: solid teal 1px; }
-  @media (min-width: 768px) {
+  @media (min-width: 769px) {
     .img--frame {
       width: 90%; } }
 
@@ -336,7 +343,7 @@ nav {
   text-transform: uppercase;
   background-color: #95DEE3;
   /* Island Paradise Blue */ }
-  @media (min-width: 786px) {
+  @media (min-width: 769px) {
     .btn--default.theme__colors {
       margin-left: 10px;
       margin-right: 10px; } }
@@ -352,7 +359,7 @@ nav {
   text-transform: uppercase;
   background-color: #88B04B;
   /* Greenery */ }
-  @media (min-width: 786px) {
+  @media (min-width: 769px) {
     .btn--success.theme__colors {
       margin-left: 10px;
       margin-right: 10px; } }
@@ -368,7 +375,7 @@ nav {
   text-transform: uppercase;
   background-color: #DC4C46;
   /* Grenadine Red */ }
-  @media (min-width: 786px) {
+  @media (min-width: 769px) {
     .btn--error.theme__colors {
       margin-left: 10px;
       margin-right: 10px; } }
@@ -384,7 +391,7 @@ nav {
   text-transform: uppercase;
   background-color: #F2552C;
   /* Flame */ }
-  @media (min-width: 786px) {
+  @media (min-width: 769px) {
     .btn--warning.theme__colors {
       margin-left: 10px;
       margin-right: 10px; } }
@@ -400,7 +407,7 @@ nav {
   text-transform: uppercase;
   background-color: #B76BA3;
   /* Bodacious*/ }
-  @media (min-width: 786px) {
+  @media (min-width: 769px) {
     .btn--info.theme__colors {
       margin-left: 10px;
       margin-right: 10px; } }
@@ -414,7 +421,7 @@ nav {
   border: none;
   border-bottom: teal 4px solid;
   width: 90%; }
-  @media (min-width: 768px) {
+  @media (min-width: 769px) {
     .form__input {
       margin-left: 40px;
       margin-right: 40px; } }

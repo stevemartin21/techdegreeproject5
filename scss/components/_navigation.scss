@@ -8,7 +8,7 @@ a{
 
 .active{
 
-	background-color:#98DDDE;
+	background-color:$color-primary;
 	border-radius:5px;
 }
 
@@ -20,7 +20,7 @@ a{
 .nav__item{
 	@extend %navitems;
 	padding: 10px 80px;
-	@media (min-width: 786px){
+	@include mediaq(tablet){
 	display: inline-flex;
 	margin-left:.1em;
 	margin-right: 1em;

@@ -4,41 +4,44 @@
 }
 .grid__row{
 	margin:0px auto;
-	@media (min-width: 786px){
+	@include mediaq(tablet){
 	width:100%;
  	display: flex;
  	flex-direction: row;
  	
 	}
 }
+
 .grid__col--2{
 	@include grid-column;
 	align-self: center;
-	@media (min-width: 786px){
+	@include mediaq(tablet){
 		margin-right: auto;
  		margin-left: 40px;
 	}
 }
 
+
+
 .grid__col--3{
 	@include grid-column;
 	margin: 20px auto;
 	
-	@media (min-width: 786px){
+	@include mediaq(tablet){
 		margin-right: auto;
  		margin-left: 40px;
 	}
 }
 .grid__col--9{
 	@include grid-column;
-	@media (min-width: 786px){
+	@include mediaq(tablet){
 		flex-direction: row;
  		margin-right:80px;
 	}
 }
 .grid__col--12{
 	@include grid-column;
-	@media (min-width: 786px){
+	@include mediaq(tablet){
 	flex-direction: row;
 	justify-content: center;
 	width:100%;
@@ -46,13 +49,13 @@
 }
 .grid__col--8{
 	@include grid-column;
-	@media (min-width: 786px){
+	@include mediaq(tablet){
 	flex: 2;
 	}		
 }
 .grid__col--4{
 	@include grid-column;
-	@media (min-width: 786px){
+	@include mediaq(tablet){
 	flex:1;
 	margin-left: 20px;
 	}	
@@ -62,7 +65,7 @@
 	padding:10px 0px;
 	border-radius:5px;
 	margin:5px 0px;
-	@media (min-width: 786px){
+	@include mediaq(tablet){
 	flex:1;
 	}	
 
@@ -73,7 +76,7 @@
 	padding:10px 0px;
 	border-radius:5px;
 	margin:5px 0px;
-	@media (min-width: 786px){
+	@include mediaq(tablet){
 	flex:1;
 	}	
 
@@ -84,7 +87,7 @@
 	padding:10px 0px;
 	border-radius:5px;
 	margin:5px 0px;
-	@media (min-width: 786px){
+	@include mediaq(tablet){
 	flex:1;
 	}	
 
@@ -95,7 +98,7 @@
 	padding:10px 0px;
 	border-radius:5px;
 	margin:5px 0px;
-	@media (min-width: 786px){
+	@include mediaq(tablet){
 	flex:1;
 	}	
 
@@ -107,7 +110,7 @@
 .grid__col--12.theme__colors {
    	@include grid__column--theme;
    	background-color: #009B77;  
-   	@media (min-width: 786px){
+   	@include mediaq(tablet){
 	width: calc((100% / 12)*12);
 	text-align: center;
 
@@ -117,7 +120,7 @@
 .grid__col--6.theme__colors{
 	@minclude grid__column--theme;
    	background-color: #4C6A92; 
-   	@media (min-width: 786px){
+   	@include mediaq(tablet){
 	width: calc((100% / 12)*6);
 	text-align: center;
 	margin-right: 10px;
@@ -126,7 +129,7 @@
    .grid__col--4.theme__colors{
    	@include grid__column--theme;
    	background-color:  	#98DDDE;  /* LImpet Shell*/
-   	@media (min-width: 786px){
+   	@include mediaq(tablet){
    	width: calc((100% / 12)*4);
 	text-align: center;
 	margin-right: 10px;
@@ -136,7 +139,7 @@
   .grid__col--3.theme__colors{
   	@include grid__column--theme;
 	background-color:  	#9896A4;  /* Lilac Gray */ 
-	@media (min-width: 786px){
+	@include mediaq(tablet){
 	width: calc((100% / 12)*3);
 	text-align: center;
 	margin-right: 10px;
@@ -145,7 +148,7 @@
  .grid__col--5.theme__colors{
  	@include grid__column--theme;
    	background-color:  #92B558; /* Greenery */
-   	@media (min-width: 786px){
+   	@include mediaq(tablet){
    	width: calc((100% / 12)*5);
 	text-align: center;
    	}
@@ -153,7 +156,7 @@
    .grid__col--7.theme__colors{
    @include grid__column--theme;
    	background-color:  #DC4C46; 
-   	@media (min-width: 786px){
+   	@include mediaq(tablet){
    	width: calc((100% / 12)*7);
 	text-align: center;
 	margin-left:10px;
@@ -162,7 +165,7 @@
 .grid__col--8.theme__colors{
 	@include grid__column--theme;
 	background-color:  #B93A32;
-	@media (min-width: 786px){
+	@include mediaq(tablet){
 	width: calc((100% / 12)*5);
 	justify-content: space-between;
 	margin-right:10px;
@@ -173,7 +176,7 @@
 }
 
 .grid__col--7.theme__colors.centered{
-	@media (min-width: 768px){
+	@include mediaq(tablet){
 			margin: 0px auto;
 		}
 }

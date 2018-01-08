@@ -1,4 +1,45 @@
 /* For mixins you need to do @include */
+
+/* Media Query Mixin */
+
+@mixin mediaq($bpoint){
+	@if $bpoint =='mobile'{
+	@media (min-width: $break-sm) and (max-width: $break-md){
+	@content;
+	}
+}
+
+	@else if $bpoint =='tablet' {
+	@media (min-width: $break-md +1 ){
+	@content;
+	}
+	}
+
+	@else if $bpoint =='desktop' {
+	@media (min-width: $break-lg){
+	@content;
+	}
+	}
+
+}
+
+/*  BEM Element Selector */
+
+@mixin element($element){
+&__#{$element}{
+	@content;
+	}	
+}
+
+/*BEM Modifier Selector */
+
+@mixin modifier($modifier){
+&--#{$modifier}{
+	@content;
+	}	
+}
+
+
 /*This styles the main grid column for the mobile size of the web site */
 
 @mixin grid-column{

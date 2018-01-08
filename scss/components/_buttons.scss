@@ -1,7 +1,7 @@
 .btn--default.theme__colors{
 	@include button-style;
 	 background-color: #95DEE3;  /* Island Paradise Blue */
-	 @media (min-width: 786px){
+	 @include mediaq(tablet){
 	 @include  button-responsive;
 	 }
 }
@@ -9,7 +9,7 @@
 
 	@include button-style;
 	 background-color: #88B04B;  /* Greenery */
-	  @media (min-width: 786px){
+	  @include mediaq(tablet){
 	 @include  button-responsive;
 	 }
 
@@ -18,7 +18,7 @@
 
 	@include button-style;
 	 background-color: #DC4C46;  /* Grenadine Red */
-	  @media (min-width: 786px){
+	  @include mediaq(tablet){
 	 @include  button-responsive;
 	 }
       }
@@ -26,7 +26,7 @@
 
 	@include button-style;
 	 background-color: #F2552C;  /* Flame */
-	  @media (min-width: 786px){
+	  @include mediaq(tablet){
 	 @include  button-responsive;
 	 }
       }
@@ -34,7 +34,7 @@
 
 	@include button-style;
 	 background-color: #B76BA3;  /* Bodacious*/
-	  @media (min-width: 786px){
+	  @include mediaq(tablet){
 	 @include  button-responsive;
 	 }
     }
